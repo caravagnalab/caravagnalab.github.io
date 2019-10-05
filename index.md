@@ -13,6 +13,10 @@ description: Landing page
 
 Giulio Caravagna, PhD. _Institute of Cancer Research, London, UK_.
 
+This is my GitHub landing page where I link the packages that I am currently developing. 
+
+Other links:
+
 * Personal webpage: [https://bit.ly/2kc9E6Y](https://sites.google.com/site/giuliocaravagna/), 
 * Email address: [giulio.caravagna@icr.ac.uk](mailto:giulio.caravagna@icr.ac.uk) and [gcaravagn@gmail.com](mailto:gcaravagn@gmail.com)
 * Twitter feed: [\@gcaravagna](https://twitter.com/gcaravagna)
