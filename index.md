@@ -20,13 +20,11 @@ Giulio Caravagna, PhD. _Institute of Cancer Research, London, UK_.
 
 ---
 
-
-#### R packages 
-
+<a href="https://caravagn.github.io/CNAqc"><img src="https://raw.githubusercontent.com/caravagn/CNAqc/master/man/figures/logo.png" width="100"></a>
+<a href="https://caravagn.github.io/ctree"><img src="https://raw.githubusercontent.com/caravagn/ctree/master/man/figures/logo.png" width="100"></a>
 
 <a href="https://caravagn.github.io/pio"><img src="https://raw.githubusercontent.com/caravagn/pio/master/man/figures/logo.png" width="100"></a>
 <a href="https://caravagn.github.io/easypar"><img src="https://raw.githubusercontent.com/caravagn/easypar/master/man/figures/logo.png" width="100"></a>
-<a href="https://caravagn.github.io/CNAqc"><img src="https://raw.githubusercontent.com/caravagn/CNAqc/master/man/figures/logo.png" width="100"></a>
 
 ---
 
