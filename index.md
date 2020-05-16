@@ -6,38 +6,21 @@ description: Landing page
 ---
 
 
-
 ---
 
-<img src="https://raw.githubusercontent.com/caravagn/caravagn.github.io/master/assets/io.jpg" align="right" alt="Giulio" style="width:100px;"/>
+<div id="bg">
+<a href="https://caravagn.github.io/CNAqc" width="8%"><img src="https://caravagn.github.io/CNAqc/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/mobster" width="8%"><img src="https://caravagn.github.io/mobster/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/revolver" width="8%"><img src="https://caravagn.github.io/revolver/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/ctree" width="8%"><img src="https://caravagn.github.io/ctree/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/mtree" width="8%"><img src="https://caravagn.github.io/mtree/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/BMix" width="8%"><img src="https://caravagn.github.io/BMix/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/VIBER" width="8%"><img src="https://caravagn.github.io/VIBER/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/TINC" width="8%"><img src="https://caravagn.github.io/TINC/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/easypar" width="8%"><img src="https://caravagn.github.io/easypar/reference/figures/logo.png" width="8%"></a>
+<a href="https://caravagn.github.io/pio" width="8%"><img src="https://caravagn.github.io/pio/reference/figures/logo.png" width="8%"></a>
 
-Giulio Caravagna, PhD. _Institute of Cancer Research, London, UK_.
+</div>  
 
-This is my GitHub landing page where I link the packages that I am currently developing. 
+<div id="bg">
 
-Other links:
-
-* Personal webpage: [https://bit.ly/2kc9E6Y](https://sites.google.com/site/giuliocaravagna/), 
-* Email address: [giulio.caravagna@icr.ac.uk](mailto:giulio.caravagna@icr.ac.uk) and [gcaravagn@gmail.com](mailto:gcaravagn@gmail.com)
-* Twitter feed: [\@gcaravagna](https://twitter.com/gcaravagna)
-* GitHub space: [caravagn](https://github.com/caravagn)
-
----
-
-<a href="https://caravagn.github.io/CNAqc"><img src="https://raw.githubusercontent.com/caravagn/CNAqc/master/man/figures/logo.png" width="100"></a>
-
-<a href="https://caravagn.github.io/ctree"><img src="https://raw.githubusercontent.com/caravagn/ctree/master/man/figures/logo.png" width="100"></a>
-<a href="https://caravagn.github.io/mtree"><img src="https://raw.githubusercontent.com/caravagn/mtree/master/man/figures/logo.png" width="100"></a>
-
-<a href="https://caravagn.github.io/evoverse.datasets"><img src="https://raw.githubusercontent.com/caravagn/evoverse.datasets/master/man/figures/logo.png" width="100"></a>
-
-<a href="https://caravagn.github.io/pio"><img src="https://raw.githubusercontent.com/caravagn/pio/master/man/figures/logo.png" width="100"></a>
-<a href="https://caravagn.github.io/easypar"><img src="https://raw.githubusercontent.com/caravagn/easypar/master/man/figures/logo.png" width="100"></a>
-
----
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/caravagn" aria-label="Follow @caravagn on GitHub">Follow @caravagn</a>
