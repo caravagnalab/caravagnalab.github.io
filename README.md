@@ -2,8 +2,13 @@
 
 GitHub Pages for Giulio Caravagna.
 
-<!-- badges: start -->
-[![R-CMD-check](https://github.com/caravagnalab/revolver/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/revolver/actions)
-[![pkgdown](https://github.com/caravagnalab/revolver/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/caravagnalab/revolver/actions/workflows/pkgdown.yaml)
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
-<!-- badges: end -->
+
+
+
+|Package   | R-CMD-check | pkgdown |
+|---|---|---|
+|revoler   |  [![R-CMD-check](https://github.com/caravagnalab/revolver/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/revolver/actions/workflows/pkgdown.yaml) | [![pkgdown](https://github.com/caravagnalab/revolver/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/caravagnalab/revolver/actions/workflows/pkgdown.yaml) |
+|mobster   | [![R-CMD-check](https://github.com/caravagnalab/mobster/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/mobster/actions/workflows/pkgdown.yaml) | [![pkgdown](https://github.com/caravagnalab/mobster/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/caravagnalab/mobster/actions/workflows/pkgdown.yaml) |
+|BMix   | [![R-CMD-check](https://github.com/caravagnalab/BMix/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/BMix/actions/workflows/pkgdown.yaml) | [![pkgdown](https://github.com/caravagnalab/BMix/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/caravagnalab/BMix/actions/workflows/pkgdown.yaml) |
+
+
