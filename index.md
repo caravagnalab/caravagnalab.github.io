@@ -1,26 +1,19 @@
----
-layout: page
-title: 
-tagline: GitHub homepage of Giulio Caravagna.
-description: Landing page
----
 
+Landing page for the *Cancer Data Science Laboratory (CDS)* at the
+University of Trieste, Italy.
 
----
+[![](https://img.shields.io/badge/CDS%20Lab%20Github-caravagnalab-seagreen.svg)](https://github.com/caravagnalab)
+[![](https://img.shields.io/badge/CDS%20Lab%20webpage-https://www.caravagnalab.org/-red.svg)](https://www.caravagnalab.org/)
 
-<div id="bg">
-<a href="https://caravagn.github.io/CNAqc" width="8%"><img src="https://caravagn.github.io/CNAqc/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/mobster" width="8%"><img src="https://caravagn.github.io/mobster/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/revolver" width="8%"><img src="https://caravagn.github.io/revolver/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/ctree" width="8%"><img src="https://caravagn.github.io/ctree/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/mtree" width="8%"><img src="https://caravagn.github.io/mtree/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/BMix" width="8%"><img src="https://caravagn.github.io/BMix/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/VIBER" width="8%"><img src="https://caravagn.github.io/VIBER/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/TINC" width="8%"><img src="https://caravagn.github.io/TINC/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/easypar" width="8%"><img src="https://caravagn.github.io/easypar/reference/figures/logo.png" width="8%"></a>
-<a href="https://caravagn.github.io/pio" width="8%"><img src="https://caravagn.github.io/pio/reference/figures/logo.png" width="8%"></a>
-
-</div>  
-
-<div id="bg">
-
+Tool | R-CMD-check | pkgdown
+---- | ---- | ----
+[BMix](https://caravagnalab.github.io/BMix/) |[![R-CMD-check](https://github.com/caravagnalab/BMix/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/BMix/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/BMix/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/BMix/actions/workflows/pkgdown.yaml)
+[CNAqc](https://caravagnalab.github.io/CNAqc/) |[![R-CMD-check](https://github.com/caravagnalab/CNAqc/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/CNAqc/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/CNAqc/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/CNAqc/actions/workflows/pkgdown.yaml)
+congas |[!R-CMD-check](https://github.com/caravagnalab/congas/actions/workflows/R-CMD-check.yaml) |[!pkgdown](https://github.com/caravagnalab/congas/actions/workflows/pkgdown.yaml)
+[ctree](https://caravagnalab.github.io/ctree/) |[![R-CMD-check](https://github.com/caravagnalab/ctree/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/ctree/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/ctree/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/ctree/actions/workflows/pkgdown.yaml)
+[mobster](https://caravagnalab.github.io/mobster/) |[![R-CMD-check](https://github.com/caravagnalab/mobster/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/mobster/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/mobster/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/mobster/actions/workflows/pkgdown.yaml)
+mtree |!R-CMD-check |!pkgdown
+Rcongas |[!R-CMD-check](https://github.com/caravagnalab/Rcongas/actions/workflows/R-CMD-check.yaml) |[!pkgdown](https://github.com/caravagnalab/Rcongas/actions/workflows/pkgdown.yaml)
+[revolver](https://caravagnalab.github.io/revolver/) |[![R-CMD-check](https://github.com/caravagnalab/revolver/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/revolver/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/revolver/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/revolver/actions/workflows/pkgdown.yaml)
+[TINC](https://caravagnalab.github.io/TINC/) |[![R-CMD-check](https://github.com/caravagnalab/TINC/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/TINC/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/TINC/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/TINC/actions/workflows/pkgdown.yaml)
+[VIBER](https://caravagnalab.github.io/VIBER/) |[![R-CMD-check](https://github.com/caravagnalab/VIBER/workflows/R-CMD-check/badge.svg)](https://github.com/caravagnalab/VIBER/actions/workflows/R-CMD-check.yaml) |[![pkgdown](https://github.com/caravagnalab/VIBER/workflows/pkgdown/badge.svg)](https://github.com/caravagnalab/VIBER/actions/workflows/pkgdown.yaml)
