@@ -1,8 +1,14 @@
 require(dplyr)
 
 markdown_link =   link = function(pointer, url) {
+  
   if (!RCurl::url.exists(url))
+  {
+   cli::cli_alert_danger("URL markdown_link {.field {url}}") 
     return(pointer)
+  }
+  
+  cli::cli_alert_success("URL markdown_link {.field {url}}") 
   
   paste0("[", pointer, "](", url, ")")
 }
@@ -13,7 +19,12 @@ package_logo_html = function(repo){
   )
   
   if (!RCurl::url.exists(img_url))
+  {
+    cli::cli_alert_danger("logo package_logo_html {.field {repo}}") 
     return(repo)
+  }
+  
+  cli::cli_alert_success("logo package_logo_html {.field {repo}}") 
   
   paste0("<img src=\"", img_url, "\" width=49px></img>")
 }
@@ -41,6 +52,7 @@ action_status = function(repo, workflow)
 
 package_status = function(repo)
 {
+  cli::cli_h1(repo)
   # link_title = paste(markdown_link(repo, package_homepage(repo)))
                      
   # cat(paste("\n#", link_title, "\n"))
@@ -61,7 +73,7 @@ R_packages = c("BMix",
              "ctree", 
              "mobster", 
              "mtree", 
-             "Rcongas", 
+             "rcongas", 
              "revolver", 
              "TINC", 
              "VIBER",
@@ -118,7 +130,12 @@ fileConn<-file("README.Rmd")
 writeLines(output, fileConn)
 close(fileConn)
 
+fileConn<-file("index.Rmd")
+writeLines(output, fileConn)
+close(fileConn)
+
 knitr::knit('README.Rmd')
+knitr::knit2html('index.Rmd')
 
 # # Header
 # columns = names(packages[[1]])
