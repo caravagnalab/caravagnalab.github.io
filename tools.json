@@ -11,12 +11,24 @@
     "url": "",
     "logo": ""
   },
+  "bascule": {
+    "url": "https://www.biorxiv.org/content/10.1101/2024.09.16.613266v1",
+    "logo": "https://www.dropbox.com/scl/fi/zffkn64nn0ux1m4i535pi/biorxiv.png?rlkey=klj7fp0bfd13tiqt75yfr241y&dl=0"
+  },
   "cnaqc": {
     "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03170-5",
     "logo": "https://www.dropbox.com/scl/fi/ugh024ph2rgzfxogrjgcq/Genome-Biology.png?rlkey=4j15rn86n2ca9rvildaoxl6q0&dl=0"
+  },
+  "TINC": {
+    "url": "https://doi.org/10.1038/s41467-023-44158-2",
+    "logo": "https://www.dropbox.com/scl/fi/tgbvyfopa1l5ne439il35/Nature-Communications.png?rlkey=hhmtha6v6yqmo1dx5c7e4bk9u&dl=0"
   },
   "mobster": {
     "url": "https://www.nature.com/articles/s41588-020-0675-5",
     "logo": "https://www.dropbox.com/scl/fi/fxj5tflmz99m9vivfkcng/Nature-Genetics.png?rlkey=2cc68pd4gogn3y54aaz5mjdko&dl=0"
   }
+  "Rcongas": {
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011557",
+    "logo": "https://www.dropbox.com/scl/fi/c3htql0akf7nnu7dd91x6/PLoS-Computational-Biology.png?rlkey=jlcvjnlbpdhkgrr5uwirolhva&dl=0"
+  },
 }
