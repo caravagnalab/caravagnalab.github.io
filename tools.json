@@ -26,9 +26,29 @@
   "mobster": {
     "url": "https://www.nature.com/articles/s41588-020-0675-5",
     "logo": "https://www.dropbox.com/scl/fi/fxj5tflmz99m9vivfkcng/Nature-Genetics.png?rlkey=2cc68pd4gogn3y54aaz5mjdko&dl=0"
-  }
+  },
+  "VIBER": {
+    "url": "https://www.nature.com/articles/s41588-020-0675-5",
+    "logo": "https://www.dropbox.com/scl/fi/fxj5tflmz99m9vivfkcng/Nature-Genetics.png?rlkey=2cc68pd4gogn3y54aaz5mjdko&dl=0"
+  },
+  "BMix": {
+    "url": "https://www.nature.com/articles/s41588-020-0675-5",
+    "logo": "https://www.dropbox.com/scl/fi/fxj5tflmz99m9vivfkcng/Nature-Genetics.png?rlkey=2cc68pd4gogn3y54aaz5mjdko&dl=0"
+  },
   "Rcongas": {
     "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011557",
     "logo": "https://www.dropbox.com/scl/fi/c3htql0akf7nnu7dd91x6/PLoS-Computational-Biology.png?rlkey=jlcvjnlbpdhkgrr5uwirolhva&dl=0"
   },
+  "REVOLVER": {
+    "url": "https://www.nature.com/articles/s41592-018-0108-x",
+    "logo": "https://www.dropbox.com/scl/fi/5yvppjfo44wkjiernj8ps/Nature-Methods.png?rlkey=m01hw6evvbog53tzsmvtoyq0t&dl=0"
+  },
+    "ctree": {
+    "url": "https://www.nature.com/articles/s41592-018-0108-x",
+    "logo": "https://www.dropbox.com/scl/fi/5yvppjfo44wkjiernj8ps/Nature-Methods.png?rlkey=m01hw6evvbog53tzsmvtoyq0t&dl=0"
+  },
+    "mtree": {
+    "url": "https://www.nature.com/articles/s41592-018-0108-x",
+    "logo": "https://www.dropbox.com/scl/fi/5yvppjfo44wkjiernj8ps/Nature-Methods.png?rlkey=m01hw6evvbog53tzsmvtoyq0t&dl=0"
+  }
 }
