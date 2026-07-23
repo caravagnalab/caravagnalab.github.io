@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main() -> None:
     papers = []
-    for record in records_in(ROOT / "content" / "papers"):
+    for record in records_in(ROOT / "content" / "research" / "projects" / "example-papers"):
         papers.append(
             {
                 key: record[key]

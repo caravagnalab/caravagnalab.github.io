@@ -11,7 +11,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIG = ROOT / "software-packages.md"
+CONFIG = ROOT / "content" / "outputs" / "software" / "packages.md"
 OUTPUT = ROOT / "assets" / "software-catalog.json"
 BUILD_METADATA = ROOT / "assets" / "software-build.json"
 ORG = "caravagnalab"

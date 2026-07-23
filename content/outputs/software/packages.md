@@ -13,6 +13,7 @@ https://caravagnalab.github.io/lineaGT/
 https://caravagnalab.github.io/easypar/
 https://caravagnalab.github.io/mtree/
 https://caravagnalab.github.io/tickTack/
-https://github.com/caravagnalab/ProCESS
-https://github.com/caravagnalab/VIBER
-https://github.com/caravagnalab/tumourevo
+https://caravagnalab.github.io/ProCESS/
+https://caravagnalab.github.io/VIBER/
+https://caravagnalab.github.io/tumourevo/
+https://caravagnalab.github.io/PEPI/

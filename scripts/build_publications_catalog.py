@@ -16,7 +16,7 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets" / "scholar-publications.json"
-SOURCES_FILE = ROOT / "publication-sources.md"
+SOURCES_FILE = ROOT / "content" / "outputs" / "publications" / "sources.md"
 
 
 def publication_profile() -> str:

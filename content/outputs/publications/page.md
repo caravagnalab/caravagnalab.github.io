@@ -1,0 +1,37 @@
+<!-- Editorial content for publications.qmd. -->
+
+::: {.publications-page}
+<header class="publications-heading">
+<p class="eyebrow">Outputs · Publications</p>
+<h1>Our scientific record.</h1>
+<p>A live publication list drawn from Giulio Caravagna’s Google Scholar profile. Citation counts reflect Scholar and may change over time.</p>
+<p class="publications-context-note">The laboratory was established in 2020; earlier publications reflect the PI’s PhD and postdoctoral research.</p>
+</header>
+
+<div class="publications-toolbar">
+<p><span id="publications-count">Loading</span> publications · <span id="publications-updated">connecting to Scholar</span></p>
+<a class="publications-scholar-link" href="https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><img src="https://scholar.google.com/favicon.ico" alt="" aria-hidden="true"> Google Scholar profile</a>
+</div>
+
+<div class="publications-sort" aria-label="Sort publications">
+<span>Sort by</span>
+<button class="publication-sort is-active" type="button" data-publication-sort="year">Year</button>
+<button class="publication-sort" type="button" data-publication-sort="citations">Citations</button>
+<span class="publication-role-label">GC role</span>
+<button class="publication-role is-active" type="button" data-publication-role="all">All</button>
+<button class="publication-role" type="button" data-publication-role="first">First author</button>
+<button class="publication-role" type="button" data-publication-role="last">Last author</button>
+<span class="publication-type-label">Type</span>
+<button class="publication-type is-active" type="button" data-publication-type="all">All</button>
+<button class="publication-type" type="button" data-publication-type="preprint"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> Preprints</button>
+<label class="publication-year-filter">Filter by year
+<select id="publication-year-filter" aria-label="Filter publications by year">
+<option value="all">All years</option>
+</select>
+</label>
+</div>
+
+<div id="publications-list" class="publications-list" aria-live="polite"></div>
+:::
+
+<script src="assets/publications.js" defer></script>
