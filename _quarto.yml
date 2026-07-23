@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  pre-render:
+    - python3 scripts/build_example_papers.py
+    - python3 scripts/build_projects_page.py
+    - python3 scripts/build_talks_page.py
+    - python3 scripts/build_join_opportunities.py
+    - python3 scripts/build_team_page.py
+    - python3 scripts/build_software_catalog.py
+    - python3 scripts/build_publications_catalog.py
+  resources:
+    - assets/papers.json
+    - assets/software-catalog.json
+    - assets/software-build.json
+    - assets/scholar-publications.json
+    - assets/team/**
+
+website:
+  title: "Caravagna Lab"
+  site-url: "https://caravagnalab.github.io"
+  description: "Cancer Data Science Laboratory at the University of Trieste"
+  favicon: assets/favicon.svg
+  navbar:
+    logo: assets/mark.svg
+    title: "CARAVAGNA LAB"
+    left:
+      - text: Research
+        menu:
+          - href: research.qmd
+            text: Overview
+          - href: projects.qmd
+            text: Projects
+      - text: Outputs
+        menu:
+          - href: publications.qmd
+            text: Publications
+          - href: software.qmd
+            text: Software
+      - href: talks.qmd
+        text: Talks & Outreach
+      - href: people.qmd
+        text: Team
+    right:
+      - href: join.qmd
+        text: Join us
+      - icon: github
+        href: https://github.com/caravagnalab
+        aria-label: Caravagna Lab on GitHub
+  page-footer:
+    left: |
+      **Cancer Data Science Laboratory**  
+      University of Trieste, Italy
+    center: |
+      Computational oncology · Cancer evolution · Machine learning
+    right:
+      - icon: envelope
+        href: mailto:gcaravagna@units.it
+        aria-label: Email the lab
+      - icon: github
+        href: https://github.com/caravagnalab
+        aria-label: GitHub
+  search: true
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <meta name="theme-color" content="#15231d">

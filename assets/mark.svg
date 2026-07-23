@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Caravagna Lab mark">
+  <rect width="64" height="64" rx="32" fill="#15231d"/>
+  <circle cx="23" cy="24" r="7" fill="#e8ff65"/>
+  <circle cx="42" cy="20" r="4" fill="#f3c94e"/>
+  <circle cx="39" cy="43" r="8" fill="#ffffff"/>
+  <path d="M27 26L37 39M29 23L38 21" stroke="#e8ff65" stroke-width="2"/>
+</svg>
+

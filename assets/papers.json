@@ -1,0 +1,118 @@
+[
+  {
+    "id": "santacatterina-2026-scalable",
+    "title": "Scalable, fast and accurate differential gene expression testing from millions of cells of multiple patients",
+    "journal": "Nature Communications",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s41467-026-74451-9",
+    "projects": [
+      "bridge",
+      "prin",
+      "mfag"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "davydzenka-2026-deconveil",
+    "title": "Extending differential gene expression testing to handle genome aneuploidy in cancer",
+    "journal": "PLOS Computational Biology",
+    "year": 2026,
+    "url": "https://doi.org/10.1371/journal.pcbi.1014134",
+    "projects": [
+      "prin",
+      "mfag"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "krasniqi-2026-neocarbo",
+    "title": "Platinum-based neoadjuvant chemotherapy and the predictive role of DNA damage response biomarkers in TNBC: the NeoCarbo study",
+    "journal": "npj Breast Cancer",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s41523-026-00977-2",
+    "projects": [
+      "bridge",
+      "mfag"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "calonaci-2026-mutant-dosage",
+    "title": "Gene mutant dosage is associated with prognosis and metastatic tropism in 60,000 clinical cancer samples",
+    "journal": "medRxiv",
+    "year": 2026,
+    "url": "https://doi.org/10.1101/2024.05.13.24307238",
+    "projects": [
+      "bridge",
+      "mfag"
+    ],
+    "weight": 3,
+    "status": "Preprint"
+  },
+  {
+    "id": "punzi-2025-tolerance",
+    "title": "Early tolerance and late persistence as alternative drug responses in cancer",
+    "journal": "Nature Communications",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s41467-024-54728-7",
+    "projects": [
+      "mfag"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "oliveira-2025-plasticity",
+    "title": "Epigenetic heritability of cell plasticity drives cancer drug resistance through a one-to-many genotype-to-phenotype paradigm",
+    "journal": "Cancer Research",
+    "year": 2025,
+    "url": "https://doi.org/10.1158/0008-5472.CAN-25-0999",
+    "projects": [
+      "mfag"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "antonello-2024-cnaqc",
+    "title": "Computational validation of clonal and subclonal copy number alterations from bulk tumor sequencing using CNAqc",
+    "journal": "Genome Biology",
+    "year": 2024,
+    "url": "https://doi.org/10.1186/s13059-024-03170-5",
+    "projects": [
+      "mfag"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "zapata-2023-immune-selection",
+    "title": "Immune selection determines tumor antigenicity and influences response to checkpoint inhibitors",
+    "journal": "Nature Genetics",
+    "year": 2023,
+    "url": "https://doi.org/10.1038/s41588-023-01313-1",
+    "projects": [
+      "mfag"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "ramazzotti-2023-evolutionary-signatures",
+    "title": "Evolutionary signatures of human cancers revealed via genomic analysis of over 35,000 patients",
+    "journal": "Nature Communications",
+    "year": 2023,
+    "url": "https://doi.org/10.1038/s41467-023-41670-3",
+    "projects": [
+      "mfag"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "marinelli-2024-keapness",
+    "title": "Transcriptional phenocopies of deleterious KEAP1 mutations correlate with survival outcomes in lung cancer treated with immunotherapy",
+    "journal": "Clinical Cancer Research",
+    "year": 2024,
+    "url": "https://doi.org/10.1158/1078-0432.CCR-24-0626",
+    "projects": [
+      "mfag"
+    ],
+    "weight": 1
+  }
+]

@@ -1,6 +1,9 @@
-.Rproj.user
+_site/
+.quarto/
+__pycache__/
+*.pyc
+.DS_Store
 .Rhistory
-.RData
-.Ruserdata
-.Rhistory
-.Rhistory
+
+/.quarto/
+**/*.quarto_ipynb

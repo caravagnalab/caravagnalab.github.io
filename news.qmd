@@ -1,0 +1,21 @@
+---
+title: "News"
+description: "News from the Caravagna Lab"
+---
+
+::: {.page-intro}
+<p class="eyebrow">Lab notes</p>
+
+# New papers, people and ideas.
+
+A lightweight record of the lab's activity—not a feed that requires weekly maintenance.
+:::
+
+::: {.content-note}
+**Proposed cadence:** four to eight substantial updates per year. Each item can be a short Markdown file with a date, image and category.
+:::
+
+## Updates coming soon
+
+Initial stories will be selected during the content review.
+

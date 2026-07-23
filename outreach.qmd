@@ -1,0 +1,21 @@
+---
+title: "Outreach"
+description: "Outreach and public engagement from the Caravagna Lab"
+---
+
+::: {.page-intro}
+<p class="eyebrow">Talks & Outreach · Outreach</p>
+
+# Cancer data science beyond the laboratory.
+
+Public engagement, education and activities that make computational oncology more accessible.
+:::
+
+::: {.content-note}
+**Editorial status:** the scope and initial activities for this page will be defined together.
+:::
+
+## Activities
+
+This page may include public lectures, schools, educational material, interviews and community initiatives.
+
