@@ -8,7 +8,8 @@ photo = "content/team/images/davide-testa.jpg"
 email = "davide.testa@phd.units.it"
 research_interests = ["Computational immunology", "Allogeneic transplantation", "Cancer evolution and treatment response"]
 +++
-Applied Data Science & Artificial Intelligence PhD programme, University of Trieste. Co-supervised with Luca Vago at Ospedale San Raffaele.
+
+Co-supervised with Luca Vago at IRCCS San Raffaele.
 
 **Training**
 

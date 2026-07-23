@@ -9,8 +9,6 @@ research_interests = ["Genetic and epigenetic tumour evolution", "Computational 
 thesis_title = "Computational modelling of the interplay between genetic and epigenetic in tumour evolution"
 thesis_url = "https://tesidottorato.depositolegale.it/handle/20.500.14242/357309"
 +++
-PhD in Applied Data Science & Artificial Intelligence, University of Trieste. Co-supervised with Alberto Cazzaniga and Alessio Ansuini.
-
 **Training**
 
 - MSc in Data Science and Scientific Computing, University of Trieste.

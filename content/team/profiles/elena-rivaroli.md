@@ -8,7 +8,6 @@ photo = "content/team/images/elena-rivaroli-correct.jpg"
 email = "elena.rivaroli@phd.units.it"
 research_interests = ["Machine learning", "Cancer genomics", "Scientific computing"]
 +++
-Applied Data Science & Artificial Intelligence PhD programme, University of Trieste.
 
 **Training**
 

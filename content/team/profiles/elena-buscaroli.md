@@ -9,8 +9,6 @@ research_interests = ["Bayesian inference of lineage evolution", "Cancer molecul
 thesis_title = "Bayesian inference of lineage evolution and molecular profiling in cancer and gene therapy"
 thesis_url = "https://tesidottorato.depositolegale.it/handle/20.500.14242/357311"
 +++
-PhD in Applied Data Science & Artificial Intelligence, University of Trieste.
-
 **Training**
 
 - MSc in Data Science and Scientific Computing, University of Trieste.

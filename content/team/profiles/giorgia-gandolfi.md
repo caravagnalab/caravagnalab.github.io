@@ -8,7 +8,7 @@ photo = "content/team/images/giorgia-gandolfi.jpg"
 email = "giorgia.gandolfi@phd.units.it"
 research_interests = ["Cancer bioinformatics", "Machine learning for tumour profiling", "High-throughput sequencing"]
 +++
-Applied Data Science & Artificial Intelligence PhD programme, University of Trieste. Sponsored by Ospedale San Raffaele and co-supervised with Giovanni Tonon.
+Sponsored by IRCCS San Raffaele and co-supervised with Giovanni Tonon.
 
 **Training**
 

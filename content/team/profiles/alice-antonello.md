@@ -9,7 +9,7 @@ research_interests = ["Therapy resistance in acute myeloid leukaemia", "Bayesian
 thesis_title = "Timing the onset of therapy resistance after Allo-HSCT in AML using Bayesian inference"
 thesis_url = "https://tesidottorato.depositolegale.it/handle/20.500.14242/189363"
 +++
-AIRC Postdoctoral Fellow supported through an independent fellowship.
+AIRC Postdoctoral Fellow (independent fellowship).
 
 **Training**
 

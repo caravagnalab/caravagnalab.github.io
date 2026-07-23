@@ -4,5 +4,5 @@ display_name = "Clara Canavese"
 category = "alumni"
 role = "Student"
 order = 112
-summary = "PhD researcher at SISSA."
+summary = "PhD researcher at SISSA and Human Technopole."
 +++

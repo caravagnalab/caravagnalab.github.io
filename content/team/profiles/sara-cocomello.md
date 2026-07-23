@@ -8,8 +8,6 @@ photo = "content/team/images/sara-cocomello-correct.jpg"
 email = "sara.cocomello@phd.units.it"
 research_interests = ["Statistical learning", "Cancer data science", "Computational modelling"]
 +++
-Applied Data Science & Artificial Intelligence PhD programme, University of Trieste.
-
 **Training**
 
 - MSc in Data Science and Scientific Computing, University of Trieste.

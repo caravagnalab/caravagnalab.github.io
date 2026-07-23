@@ -8,7 +8,6 @@ photo = "content/team/images/azad-sadr-correct.jpg"
 email = "azad.sadr@phd.units.it"
 research_interests = ["Machine learning", "Computational modelling", "Optimisation and data-driven methods in cancer research"]
 +++
-Applied Data Science & Artificial Intelligence PhD programme, University of Trieste.
 
 **Training**
 
