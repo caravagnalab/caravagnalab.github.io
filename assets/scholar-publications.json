@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "profile": "https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100",
   "publications": [
     {
@@ -1370,23 +1370,23 @@
     {
       "title": "Methods, computer-accessible medium and systems to model disease progression using biomedical data from multiple patients",
       "authors": "D Ramazzotti, G Caravagna, LO Loohuis, A Graudenzi, I Korsuncky, ...",
-      "venue": "US Patent 11,205,519, 2021",
-      "year": 2021,
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iktXWosAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=iktXWosAAAAJ:pYKElYtJMmwC",
-      "authorsDetailed": false,
-      "doi": "",
-      "metadataSource": "Google Scholar",
-      "metadataVersion": 3,
-      "doiChecked": false
-    },
-    {
-      "title": "Methods, computer-accessible medium and systems to model disease progression using biomedical data from multiple patients",
-      "authors": "D Ramazzotti, G Caravagna, LO Loohuis, A Graudenzi, I Korsuncky, ...",
       "venue": "US Patent App. 15/032,903, 2016",
       "year": 2016,
       "citations": 7,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iktXWosAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=iktXWosAAAAJ:H7nrzBkawXsC",
+      "authorsDetailed": false,
+      "doi": "",
+      "metadataSource": "Google Scholar",
+      "metadataVersion": 3,
+      "doiChecked": true
+    },
+    {
+      "title": "Methods, computer-accessible medium and systems to model disease progression using biomedical data from multiple patients",
+      "authors": "D Ramazzotti, G Caravagna, LO Loohuis, A Graudenzi, I Korsuncky, ...",
+      "venue": "US Patent 11,205,519, 2021",
+      "year": 2021,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iktXWosAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=iktXWosAAAAJ:pYKElYtJMmwC",
       "authorsDetailed": false,
       "doi": "",
       "metadataSource": "Google Scholar",

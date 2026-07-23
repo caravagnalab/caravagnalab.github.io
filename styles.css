@@ -212,6 +212,8 @@ main.content:has(> .research-hero) { grid-column: page-start / page-end; }
 .funder-card:hover { background:transparent; opacity:.78; }
 .funder-logo { display:block; height:76px; width:auto; max-width:165px; object-fit:contain; margin:0 auto; }
 .funder-mur { height:88px; }
+.funder-card-wide { width:250px; }
+.funder-nextgen { width:235px; max-width:235px; height:auto; }
 .section-dark { background:#47554e; color:var(--white); }
 .section-dark .eyebrow { color:var(--butter); }
 .feature-grid { display:grid; grid-template-columns: 1.5fr .7fr; gap:5vw; }
@@ -590,6 +592,10 @@ main > h2 { margin-top:5rem; }
 
 .nav-footer { margin-top:7rem; background:var(--ink) !important; color:var(--white); border-top:0 !important; padding:3rem 5vw; }
 .nav-footer a { color:var(--white); }
+.nav-footer-left { flex:1.45 1 460px; }
+.nav-footer-center { flex:1 1 300px; }
+.footer-lab { display:flex; align-items:center; gap:1.25rem; font-size:.78rem; line-height:1.55; }
+.footer-units-logo { display:block; width:150px; height:auto; }
 
 @media (max-width: 1100px) {
   .hero-copy { padding-left:5vw; }
@@ -627,11 +633,14 @@ main > h2 { margin-top:5rem; }
   .hero-copy h1 { max-width:72%; }
   .hero-copy > p:not(.eyebrow) { max-width:68%; }
   .signal-strip, .question-grid, .feature-grid, .people-teaser, .three-col, .software-grid, .profile-placeholder-grid { grid-template-columns:1fr; }
-  .funders-grid { flex-direction:row; flex-wrap:nowrap; gap:1rem; }
-  .funders-grid > p { gap:1rem; }
-  .funder-card { width:min(42vw, 170px); padding:.25rem; }
+  .funders-grid { width:100%; }
+  .funders-grid > p { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:100%; gap:.65rem; }
+  .funder-card, .funder-card-wide { width:100%; padding:.25rem; }
   .funder-logo { max-width:100%; height:68px; }
   .funder-mur { height:76px; }
+  .funder-nextgen { width:100%; height:auto; }
+  .footer-lab { align-items:flex-start; flex-direction:column; }
+  .footer-units-logo { width:135px; }
   .signal-item, .question-card, .question-card + .question-card { border-right:0; border-bottom:1px solid var(--line); padding:2rem 0; }
   .signal-item { padding-left:6vw; padding-right:6vw; }
   .question-card { min-height:0; }

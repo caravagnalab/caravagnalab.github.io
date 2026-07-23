@@ -52,8 +52,16 @@ website:
         aria-label: Caravagna Lab on GitHub
   page-footer:
     left: |
-      **Cancer Data Science Laboratory**  
-      University of Trieste, Italy
+      <div class="footer-lab">
+        <a href="https://www.units.it/" aria-label="University of Trieste">
+          <img class="footer-units-logo" src="content/images/units-logo-footer.svg" alt="University of Trieste">
+        </a>
+        <div>
+          <strong>Cancer Data Science Laboratory</strong><br>
+          Department of Mathematics, Informatics and Geosciences<br>
+          Via D. Economo 12/3 · 34123 Trieste · Italy
+        </div>
+      </div>
     center: |
       Computational oncology · Cancer evolution · Machine learning
     right:

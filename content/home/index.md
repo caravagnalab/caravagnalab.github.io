@@ -109,6 +109,9 @@ Our research is made possible by the generous support of several institutions.
 <a class="funder-card" href="projects.html" aria-label="View projects funded by the Ministry of University and Research">
 <img class="funder-logo funder-mur" src="assets/funder-mur.png" alt="Ministero dell'Università e della Ricerca">
 </a>
+<a class="funder-card funder-card-wide" href="projects.html" aria-label="View projects funded by the European Union – NextGenerationEU">
+<img class="funder-logo funder-nextgen" src="content/images/funder-nextgenerationeu.png" alt="Funded by the European Union – NextGenerationEU">
+</a>
 </div>
 :::
 

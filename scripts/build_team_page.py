@@ -12,6 +12,35 @@ ROOT = Path(__file__).resolve().parents[1]
 PEOPLE_DIR = ROOT / "content" / "team" / "profiles"
 OUTPUT = ROOT / "people.qmd"
 
+
+def start_year(person: dict) -> int:
+    """Return the first four-digit year in a profile role."""
+    match = re.search(r"\b(20\d{2})\b", person.get("role", ""))
+    return int(match.group(1)) if match else 0
+
+
+def alumni_status(person: dict) -> tuple[int, str]:
+    """Group alumni by the status displayed above their name."""
+    status = person.get("role", "").casefold()
+    if "phd" in status:
+        rank = 0
+    elif "postdoc" in status or "research associate" in status:
+        rank = 1
+    elif "student" in status:
+        rank = 2
+    else:
+        rank = 3
+    return rank, status
+
+
+def section_sort_key(person: dict) -> tuple:
+    if person["category"] == "phd":
+        return (-start_year(person), person["order"], person["name"])
+    if person["category"] == "alumni":
+        return (*alumni_status(person), person["order"], person["name"])
+    return person["order"], person["name"]
+
+
 def read_record(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
     match = re.match(r"^\+\+\+\n(.*?)\n\+\+\+\n?(.*)$", text, re.S)
@@ -162,7 +191,10 @@ title-block-banner: false
         eyebrow = section["eyebrow"]
         title = section["title"]
         tinted = section.get("tinted", False)
-        members = [person for person in records if person["category"] == key]
+        members = sorted(
+            (person for person in records if person["category"] == key),
+            key=section_sort_key,
+        )
         if not members:
             continue
         section_class = "team-section team-section-tinted" if tinted else "team-section"
