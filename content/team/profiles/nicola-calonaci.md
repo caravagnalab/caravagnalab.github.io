@@ -3,7 +3,7 @@ name = "Nicola Calonaci"
 display_name = "Nicola Calonaci"
 category = "postdoctoral"
 order = 10
-photo = "assets/team/nicola-calonaci.jpg"
+photo = "content/team/images/nicola-calonaci.jpg"
 email = "nicola.calonaci@units.it"
 research_interests = ["Statistical physics of biological systems", "Computational oncology", "Probabilistic modelling of tumour evolution"]
 +++

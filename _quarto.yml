@@ -17,7 +17,7 @@ project:
     - assets/software-catalog.json
     - assets/software-build.json
     - assets/scholar-publications.json
-    - assets/team/**
+    - content/team/images/**
 
 website:
   title: "Caravagna Lab"

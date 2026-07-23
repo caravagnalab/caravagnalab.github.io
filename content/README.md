@@ -16,6 +16,13 @@ Files named `page.md` contain section-level copy. Folders named `items`,
 `profiles`, `opportunities` or `example-papers` contain one Markdown record per
 entry.
 
+Team portraits live in `team/images/`. Every profile that has a portrait
+declares it explicitly in its TOML front matter, for example:
+
+```toml
+photo = "content/team/images/giulio-caravagna-v2.png"
+```
+
 After editing, run:
 
 ```bash

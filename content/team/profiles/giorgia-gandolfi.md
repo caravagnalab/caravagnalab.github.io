@@ -4,7 +4,7 @@ display_name = "Giorgia Gandolfi"
 category = "phd"
 role = "ADSAI · 2024–27"
 order = 24
-photo = "assets/team/giorgia-gandolfi.jpg"
+photo = "content/team/images/giorgia-gandolfi.jpg"
 email = "giorgia.gandolfi@phd.units.it"
 research_interests = ["Cancer bioinformatics", "Machine learning for tumour profiling", "High-throughput sequencing"]
 +++

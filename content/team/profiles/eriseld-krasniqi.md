@@ -4,7 +4,7 @@ display_name = "Eriseld Krasniqi"
 category = "phd"
 role = "ADSAI · 2024–27"
 order = 26
-photo = "assets/team/eriseld-krasniqi.jpg"
+photo = "content/team/images/eriseld-krasniqi.jpg"
 email = "eriseld.krasniqi@phd.units.it"
 research_interests = ["Clinical oncology", "Precision medicine", "Machine learning for clinical and genomic cancer data"]
 +++

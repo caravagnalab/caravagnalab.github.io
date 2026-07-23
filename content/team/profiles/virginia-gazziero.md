@@ -4,7 +4,7 @@ display_name = "Virginia Gazziero"
 category = "phd"
 role = "ADSAI · 2024–27"
 order = 25
-photo = "assets/team/virginia-gazziero.jpg"
+photo = "content/team/images/virginia-gazziero.jpg"
 email = "virginia.gazziero@phd.units.it"
 research_interests = ["Functional genomics", "Cancer immunology", "Machine learning for molecular data"]
 +++

@@ -4,7 +4,7 @@ display_name = "Davide Testa"
 category = "phd"
 role = "ADSAI · 2025–28"
 order = 20
-photo = "assets/team/davide-testa.jpg"
+photo = "content/team/images/davide-testa.jpg"
 email = "davide.testa@phd.units.it"
 research_interests = ["Computational immunology", "Allogeneic transplantation", "Cancer evolution and treatment response"]
 +++
