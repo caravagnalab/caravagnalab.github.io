@@ -1,6 +1,6 @@
 +++
 name = "Giovanni Santacatterina"
-display_name = "Giovanni Santacatterina, PhD"
+display_name = "Giovanni Santacatterina"
 category = "alumni"
 role = "PhD researcher"
 order = 100
