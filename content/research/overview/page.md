@@ -1,6 +1,6 @@
 <!-- Editorial content for research.qmd. -->
 
-::: {.hero .research-hero}
+::: {.hero .research-hero style="--hero-image: url('content/images/research-hero.png');"}
 ::: {.hero-copy}
 <p class="eyebrow"><strong>Research mission</strong></p>
 

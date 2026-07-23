@@ -88,11 +88,34 @@ main.content:has(> .research-hero) { grid-column: page-start / page-end; }
   right:3vw;
   width:min(72%, 1250px);
   aspect-ratio:1672 / 941;
-  background:url("assets/evolution-inference-hero.png") center / contain no-repeat;
+  background-image:var(--hero-image);
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
 }
 .hero-copy h1 { max-width: 58%; margin: .4rem 0 1.6rem; font-size:clamp(2.65rem, 3.8vw, 3.9rem); }
 .hero-copy > p:not(.eyebrow) { font-size: clamp(1rem, 1.2vw, 1.18rem); line-height:1.6; max-width: 54%; }
 .hero-copy { min-height:clamp(590px, 47vw, 760px); }
+.hero .software-editorial-note {
+  display:block;
+  max-width:54%;
+  margin-top:1.4rem;
+  padding-top:1rem;
+}
+.hero .software-editorial-note p { max-width:none; font-size:.72rem; }
+.hero .software-editorial-note .software-page-date { margin-top:.55rem; }
+.hero .publications-context-note {
+  max-width:54%;
+  margin-top:1.5rem;
+  padding:.7rem .85rem;
+  border:1px solid #c9dfd3;
+  border-left:4px solid #7fae92;
+  border-radius:4px;
+  background:rgba(238,246,241,.88);
+  color:#4f6359;
+  font-size:.74rem !important;
+  line-height:1.5;
+}
 .eyebrow {
   font-family: var(--mono);
   font-size: .78rem;
@@ -306,7 +329,7 @@ main.content:has(> .research-hero) { grid-column: page-start / page-end; }
   background-color: var(--paper);
   background-image:
     linear-gradient(90deg, rgba(248,244,236,1) 0%, rgba(248,244,236,.98) 42%, rgba(248,244,236,.62) 58%, rgba(248,244,236,.08) 100%),
-    url("assets/evolution-inference-hero.png");
+    url("content/images/home-hero.png");
   background-size: cover;
   background-position: 67% 48%;
   position: relative;
@@ -619,7 +642,7 @@ main > h2 { margin-top:5rem; }
     justify-content: flex-start;
     background-image:
       linear-gradient(180deg, rgba(248,244,236,1) 0%, rgba(248,244,236,.96) 48%, rgba(248,244,236,.12) 78%),
-      url("assets/evolution-inference-hero.png");
+      url("content/images/home-hero.png");
     background-position: 62% center;
   }
   .research-tech-grid, .research-pipeline-grid { grid-template-columns:1fr; }

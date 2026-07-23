@@ -1,13 +1,15 @@
 <!-- Editorial content for publications.qmd. -->
 
-::: {.publications-page}
-<header class="publications-heading">
+::: {.hero .outputs-hero style="--hero-image: url('content/images/outputs-hero.png');"}
+::: {.hero-copy}
 <p class="eyebrow">Outputs · Publications</p>
 <h1>Our scientific record.</h1>
 <p>A live publication list drawn from Giulio Caravagna’s Google Scholar profile. Citation counts reflect Scholar and may change over time.</p>
 <p class="publications-context-note">The laboratory was established in 2020; earlier publications reflect the PI’s PhD and postdoctoral research.</p>
-</header>
+:::
+:::
 
+::: {.publications-page}
 <div class="publications-toolbar">
 <p><span id="publications-count">Loading</span> publications · <span id="publications-updated">connecting to Scholar</span></p>
 <a class="publications-scholar-link" href="https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><img src="https://scholar.google.com/favicon.ico" alt="" aria-hidden="true"> Google Scholar profile</a>

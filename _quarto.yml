@@ -12,6 +12,7 @@ project:
     - python3 scripts/build_software_catalog.py
     - python3 scripts/build_publications_catalog.py
   resources:
+    - content/images/**
     - assets/papers.json
     - assets/software-catalog.json
     - assets/software-build.json

@@ -1,6 +1,6 @@
 <!-- Editorial content for index.qmd. -->
 
-::: {.hero}
+::: {.hero style="--hero-image: url('content/images/home-hero.png');"}
 ::: {.hero-copy}
 <p class="eyebrow"><strong>Cancer Data Science Laboratory · University of Trieste</strong></p>
 

@@ -2084,9 +2084,9 @@
     }
   },
   {
-    "configuredUrl": "https://github.com/caravagnalab/ProCESS",
+    "configuredUrl": "https://caravagnalab.github.io/ProCESS/",
     "site": {
-      "url": "https://github.com/caravagnalab/ProCESS",
+      "url": "https://caravagnalab.github.io/ProCESS/",
       "description": "A programmable cancer evolution spatial simulation framework",
       "logo": "https://opengraph.githubassets.com/efa7bcbb9c6649f898649fe49fa8ef49ca62f05796b1ccdca49da88b3ef97754/caravagnalab/ProCESS"
     },
@@ -2094,7 +2094,7 @@
     "repo": {
       "name": "ProCESS",
       "html_url": "https://github.com/caravagnalab/ProCESS",
-      "homepage": "",
+      "homepage": "https://caravagnalab.github.io/ProCESS/",
       "default_branch": "main",
       "description": "A programmable cancer evolution spatial simulation framework",
       "topics": [
@@ -2213,11 +2213,11 @@
     }
   },
   {
-    "configuredUrl": "https://github.com/caravagnalab/VIBER",
+    "configuredUrl": "https://caravagnalab.github.io/VIBER/",
     "site": {
-      "url": "https://github.com/caravagnalab/VIBER",
-      "description": "Variational inference for subclonal deconvolution with multivariate Binomial mixtures",
-      "logo": "https://opengraph.githubassets.com/4fe2ad379107eb451440525c8ae6e361a145b9896c57807c49abc6b45e7a6e47/caravagnalab/VIBER"
+      "url": "https://caravagnalab.github.io/VIBER/",
+      "description": "Implements the variational Bayesian framework described in Caravagna et al. (2020) to fit multi-variate Binomial mixture models. The statistical model is semi-parametric and fitted by a variational mean-field approximation to the model posterior. Mixture components are Binomial distributions that can model multi-dimensional count data, for instance sequencing read counts in cancer genomics. The package provides functions to fit and visualise clustering results.",
+      "logo": "https://caravagnalab.github.io/VIBER/logo.png"
     },
     "paper": {
       "url": "https://doi.org/10.1038/s41588-020-0675-5",
@@ -2230,7 +2230,7 @@
     "repo": {
       "name": "VIBER",
       "html_url": "https://github.com/caravagnalab/VIBER",
-      "homepage": "",
+      "homepage": "https://caravagnalab.github.io/VIBER/",
       "default_branch": "master",
       "description": "Variational inference for subclonal deconvolution with multivariate Binomial mixtures",
       "topics": [
@@ -2343,9 +2343,9 @@
     }
   },
   {
-    "configuredUrl": "https://github.com/caravagnalab/tumourevo",
+    "configuredUrl": "https://caravagnalab.github.io/tumourevo/",
     "site": {
-      "url": "https://github.com/caravagnalab/tumourevo",
+      "url": "https://caravagnalab.github.io/tumourevo/",
       "description": "Tumour evolution bioinformatics analysis pipeline from bulk sequencing",
       "logo": "https://opengraph.githubassets.com/adace0eb4810ef7537675644952efc79e9f8f9e85421b6f8473ad4a50f530797/caravagnalab/tumourevo"
     },
@@ -2360,7 +2360,7 @@
     "repo": {
       "name": "tumourevo",
       "html_url": "https://github.com/caravagnalab/tumourevo",
-      "homepage": "",
+      "homepage": "https://caravagnalab.github.io/tumourevo/",
       "default_branch": "main",
       "description": "Tumour evolution bioinformatics analysis pipeline from bulk sequencing",
       "topics": [
@@ -2470,6 +2470,130 @@
       "forks": 1,
       "open_issues": 0,
       "watchers": 0,
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
+      "custom_properties": {}
+    }
+  },
+  {
+    "configuredUrl": "https://caravagnalab.github.io/PEPI/",
+    "site": {
+      "url": "https://caravagnalab.github.io/PEPI/",
+      "description": "PEPI is a package that implements a statistical model for studying epigenetic dynamics from genomics data and cell counts. The first application deals with the study of a latent branching process augmented with genetic mutations that are accumulated at every division with constant mutation rate, independently of the epigenetic state, and measured by bulk whole-genome DNA sequencing (a common NGS technology).We consider an experimental design where cells are sorted (i.e., separated) based on their epimutation state (+ versus −) prior to sequencing, and Variant Allele Frequencies (VAFs) are generated from two samples. With two samples, the VAFs spectrum is bi-variate as any mutation is identified by two coordinates in VAF space. Our intuition is to associate to a VAF spectrum a tree where branches and nodes have an interpretation in terms of epigenetic dynamics: a branch is a trajectory of a cycling cell which goes through a certain number of divisions, and the length of the edge corresponds to the cumulative number mutations arrived on the genome. Tree leaves correspond to most recent common ancestors (MRCAs) of subpopulations of cells in our sample, sorted by the marker state, and each clade of cells forms a cluster in VAF space. For every node two outgoing branches correspond to epi-positive and epi-negative cells and the stochastic tree-generation process starting from a collection of mutations is a hierarchical stick-breaking process. This approach allows for trees of unbounded width and depth, where data can live at any node as in infinite mixtures with a latent dependency structure.The second application deals with the analysis of a time series of cell counts. We consider a longitudinal experiment where cells are sorted based on their epimutation state and counted at different times. We implemented a non-linear Bayesian regression model where mean and variance of the number of cells at different time points are obtained by solving an ordinary differential equation describing the growth and switching dynamics of the two populations. Inferring the latent parameters driving the branching process, we can predict cell counts at arbitrary time points.",
+      "logo": "https://caravagnalab.github.io/PEPI/logo.png"
+    },
+    "paper": {},
+    "repo": {
+      "id": 727932033,
+      "node_id": "R_kgDOK2NcgQ",
+      "name": "PEPI",
+      "full_name": "caravagnalab/PEPI",
+      "private": false,
+      "owner": {
+        "login": "caravagnalab",
+        "id": 73030283,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMDMwMjgz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73030283?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/caravagnalab",
+        "html_url": "https://github.com/caravagnalab",
+        "followers_url": "https://api.github.com/users/caravagnalab/followers",
+        "following_url": "https://api.github.com/users/caravagnalab/following{/other_user}",
+        "gists_url": "https://api.github.com/users/caravagnalab/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/caravagnalab/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/caravagnalab/subscriptions",
+        "organizations_url": "https://api.github.com/users/caravagnalab/orgs",
+        "repos_url": "https://api.github.com/users/caravagnalab/repos",
+        "events_url": "https://api.github.com/users/caravagnalab/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/caravagnalab/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/caravagnalab/PEPI",
+      "description": "A Bayesian inference framework for quantifying heritability and plasticity from bulk WGS",
+      "fork": false,
+      "url": "https://api.github.com/repos/caravagnalab/PEPI",
+      "forks_url": "https://api.github.com/repos/caravagnalab/PEPI/forks",
+      "keys_url": "https://api.github.com/repos/caravagnalab/PEPI/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/caravagnalab/PEPI/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/caravagnalab/PEPI/teams",
+      "hooks_url": "https://api.github.com/repos/caravagnalab/PEPI/hooks",
+      "issue_events_url": "https://api.github.com/repos/caravagnalab/PEPI/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/caravagnalab/PEPI/events",
+      "assignees_url": "https://api.github.com/repos/caravagnalab/PEPI/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/caravagnalab/PEPI/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/caravagnalab/PEPI/tags",
+      "blobs_url": "https://api.github.com/repos/caravagnalab/PEPI/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/caravagnalab/PEPI/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/caravagnalab/PEPI/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/caravagnalab/PEPI/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/caravagnalab/PEPI/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/caravagnalab/PEPI/languages",
+      "stargazers_url": "https://api.github.com/repos/caravagnalab/PEPI/stargazers",
+      "contributors_url": "https://api.github.com/repos/caravagnalab/PEPI/contributors",
+      "subscribers_url": "https://api.github.com/repos/caravagnalab/PEPI/subscribers",
+      "subscription_url": "https://api.github.com/repos/caravagnalab/PEPI/subscription",
+      "commits_url": "https://api.github.com/repos/caravagnalab/PEPI/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/caravagnalab/PEPI/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/caravagnalab/PEPI/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/caravagnalab/PEPI/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/caravagnalab/PEPI/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/caravagnalab/PEPI/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/caravagnalab/PEPI/merges",
+      "archive_url": "https://api.github.com/repos/caravagnalab/PEPI/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/caravagnalab/PEPI/downloads",
+      "issues_url": "https://api.github.com/repos/caravagnalab/PEPI/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/caravagnalab/PEPI/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/caravagnalab/PEPI/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/caravagnalab/PEPI/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/caravagnalab/PEPI/labels{/name}",
+      "releases_url": "https://api.github.com/repos/caravagnalab/PEPI/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/caravagnalab/PEPI/deployments",
+      "created_at": "2023-12-05T21:51:46Z",
+      "updated_at": "2026-07-23T17:00:50Z",
+      "pushed_at": "2026-07-23T14:07:01Z",
+      "git_url": "git://github.com/caravagnalab/PEPI.git",
+      "ssh_url": "git@github.com:caravagnalab/PEPI.git",
+      "clone_url": "https://github.com/caravagnalab/PEPI.git",
+      "svn_url": "https://github.com/caravagnalab/PEPI",
+      "homepage": "https://caravagnalab.github.io/PEPI/",
+      "size": 114827,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "R",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": false,
+      "has_wiki": false,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "clonal-evolution",
+        "plasticity",
+        "population-genetics"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
       "permissions": {
         "admin": false,
         "maintain": false,

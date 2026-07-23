@@ -923,7 +923,7 @@
       "doi": "",
       "metadataSource": "Google Scholar",
       "metadataVersion": 3,
-      "doiChecked": false
+      "doiChecked": true
     },
     {
       "title": "Preprint: Mutation Rate Evolution Drives Immune Escape In Mismatch Repair-Deficient Cancer",
@@ -1235,7 +1235,7 @@
       "doi": "",
       "metadataSource": "Google Scholar",
       "metadataVersion": 3,
-      "doiChecked": false
+      "doiChecked": true
     },
     {
       "title": "Reply to ‘Neutral tumor evolution?’",
@@ -1378,7 +1378,7 @@
       "doi": "",
       "metadataSource": "Google Scholar",
       "metadataVersion": 3,
-      "doiChecked": true
+      "doiChecked": false
     },
     {
       "title": "Methods, computer-accessible medium and systems to model disease progression using biomedical data from multiple patients",
