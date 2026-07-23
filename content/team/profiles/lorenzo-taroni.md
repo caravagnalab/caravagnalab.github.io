@@ -4,5 +4,5 @@ display_name = "Lorenzo Taroni"
 category = "alumni"
 role = "Student"
 order = 110
-summary = "Software developer at Advancia Technology."
+summary = "MSc thesis in AI (Trieste). Then, software developer at Advancia Technology."
 +++

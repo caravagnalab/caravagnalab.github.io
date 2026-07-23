@@ -8,4 +8,4 @@ photo = "content/team/images/eleonora-tiozzo.png"
 research_interests = ["Data science", "Scientific computing", "Computational oncology"]
 +++
 
-MSc programme in Data Science and Scientific Computing. Co-supervised with Nicola Calonaci.
+MSc programme in AI (UNITS). Co-supervised with Nicola Calonaci.

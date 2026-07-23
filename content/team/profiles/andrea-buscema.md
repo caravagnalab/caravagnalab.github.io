@@ -4,5 +4,5 @@ display_name = "Andrea Buscema"
 category = "alumni"
 role = "Student"
 order = 103
-summary = "Current position to be confirmed."
+summary = "MSc thesis in AI (Trieste). Current position to be confirmed."
 +++

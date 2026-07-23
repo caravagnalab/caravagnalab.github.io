@@ -4,5 +4,5 @@ display_name = "Abdula Khalus"
 category = "alumni"
 role = "Student"
 order = 111
-summary = "Software developer at AI Factory."
+summary = "BSc thesis in AI (Trieste), Then, software developer at AI Factory."
 +++
