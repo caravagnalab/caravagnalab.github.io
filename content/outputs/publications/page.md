@@ -10,22 +10,29 @@
 :::
 
 ::: {.publications-page}
+<div class="publications-topline">
+<a class="publications-scholar-link" href="https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><img src="https://scholar.google.com/favicon.ico" alt="" aria-hidden="true"> Google Scholar profile</a>
+</div>
+
+<nav class="publications-view-switch" aria-label="Choose publication view">
+<span>View</span>
+<button class="is-active" type="button" data-publications-view="featured" aria-pressed="true">Featured</button>
+<button type="button" data-publications-view="all" aria-pressed="false">All papers</button>
+</nav>
+
+<div class="publications-view-panel" data-publications-panel="featured">
+{{< include content/outputs/publications/featured.md >}}
+</div>
+
+<div class="publications-view-panel" data-publications-panel="all" hidden>
 <div class="publications-toolbar">
 <p><span id="publications-count">Loading</span> publications · <span id="publications-updated">connecting to Scholar</span></p>
-<a class="publications-scholar-link" href="https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><img src="https://scholar.google.com/favicon.ico" alt="" aria-hidden="true"> Google Scholar profile</a>
 </div>
 
 <div class="publications-sort" aria-label="Sort publications">
 <span>Sort by</span>
 <button class="publication-sort is-active" type="button" data-publication-sort="year">Year</button>
 <button class="publication-sort" type="button" data-publication-sort="citations">Citations</button>
-<span class="publication-role-label">GC role</span>
-<button class="publication-role is-active" type="button" data-publication-role="all">All</button>
-<button class="publication-role" type="button" data-publication-role="first">First author</button>
-<button class="publication-role" type="button" data-publication-role="last">Last author</button>
-<span class="publication-type-label">Type</span>
-<button class="publication-type is-active" type="button" data-publication-type="all">All</button>
-<button class="publication-type" type="button" data-publication-type="preprint"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> Preprints</button>
 <label class="publication-year-filter">Filter by year
 <select id="publication-year-filter" aria-label="Filter publications by year">
 <option value="all">All years</option>
@@ -34,6 +41,25 @@
 </div>
 
 <div id="publications-list" class="publications-list" aria-live="polite"></div>
+</div>
 :::
 
 <script src="assets/publications.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = [...document.querySelectorAll("[data-publications-view]")];
+  const panels = [...document.querySelectorAll("[data-publications-panel]")];
+  const show = (view) => {
+    buttons.forEach((button) => {
+      const active = button.dataset.publicationsView === view;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    panels.forEach((panel) => {
+      panel.hidden = panel.dataset.publicationsPanel !== view;
+    });
+  };
+  buttons.forEach((button) => button.addEventListener("click", () => show(button.dataset.publicationsView)));
+  show("featured");
+});
+</script>

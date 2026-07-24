@@ -11,6 +11,7 @@ project:
     - python3 scripts/build_team_page.py
     - python3 scripts/build_software_catalog.py
     - python3 scripts/build_publications_catalog.py
+    - python3 scripts/build_featured_research_page.py
   resources:
     - content/images/**
     - assets/papers.json
@@ -36,6 +37,8 @@ website:
             text: Projects
       - text: Outputs
         menu:
+          - href: featured-research.qmd
+            text: Featured Research
           - href: publications.qmd
             text: Publications
           - href: software.qmd
@@ -52,25 +55,11 @@ website:
         aria-label: Caravagna Lab on GitHub
   page-footer:
     left: |
-      <div class="footer-lab">
-        <a href="https://www.units.it/" aria-label="University of Trieste">
-          <img class="footer-units-logo" src="content/images/units-logo-footer.svg" alt="University of Trieste">
-        </a>
-        <div>
-          <strong>Cancer Data Science Laboratory</strong><br>
-          Department of Mathematics, Informatics and Geosciences<br>
-          Via D. Economo 12/3 · 34123 Trieste · Italy
-        </div>
-      </div>
+      **Cancer Data Science Laboratory**<br>Computational oncology · Cancer evolution · Machine learning
     center: |
-      Computational oncology · Cancer evolution · Machine learning
-    right:
-      - icon: envelope
-        href: mailto:gcaravagna@units.it
-        aria-label: Email the lab
-      - icon: github
-        href: https://github.com/caravagnalab
-        aria-label: GitHub
+      Department of Mathematics, Informatics and Geosciences<br>Via D. Economo 12/3 · 34123 Trieste · Italy
+    right: |
+      [![](content/images/units-logo-footer.svg){.footer-units-logo fig-alt="University of Trieste"}](https://www.units.it/)
   search: true
   open-graph: true
   twitter-card: true

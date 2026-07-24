@@ -3,16 +3,12 @@
   const count = document.querySelector("#publications-count");
   const updated = document.querySelector("#publications-updated");
   const buttons = [...document.querySelectorAll("[data-publication-sort]")];
-  const roleButtons = [...document.querySelectorAll("[data-publication-role]")];
-  const typeButtons = [...document.querySelectorAll("[data-publication-type]")];
   const yearFilter = document.querySelector("#publication-year-filter");
   if (!list || !count) return;
 
   let publications = [];
   let sortBy = "year";
   let selectedYear = "all";
-  let selectedRole = "all";
-  let selectedType = "all";
   const request = (url) => fetch(url).then((response) => {
     if (!response.ok) throw new Error(`Request failed: ${response.status}`);
     return response.json();
@@ -36,16 +32,6 @@
     }
     node.append(document.createTextNode(value.slice(cursor)));
   };
-  const isPi = (value) => /^(?:Giulio|Gulio|G\.?)\s+Caravagna$|^Caravagna\s+(?:Giulio|Gulio|G\.?)$/i
-    .test((value || "").replace(/\./g, ".").trim());
-  const piRole = (paper) => {
-    if (!paper.authorsDetailed) return { first: false, last: false };
-    const authors = (paper.authors || "").split(",").map((author) => author.trim()).filter(Boolean);
-    return {
-      first: authors.length > 0 && isPi(authors[0]),
-      last: authors.length > 0 && isPi(authors[authors.length - 1])
-    };
-  };
   const isPreprint = (paper) => {
     const venue = (paper.venue || "").toLowerCase();
     return /biorxiv|medrxiv|arxiv|research square|ssrn|preprint/.test(venue)
@@ -55,11 +41,7 @@
   const render = () => {
     const byYear = selectedYear === "all" ? publications : publications.filter((paper) =>
       selectedYear === "before-2020" ? paper.year > 0 && paper.year < 2020 : String(paper.year || 0) === selectedYear);
-    const visible = selectedRole === "all"
-      ? byYear
-      : byYear.filter((paper) => piRole(paper)[selectedRole]);
-    const typed = selectedType === "preprint" ? visible.filter(isPreprint) : visible;
-    const sorted = [...typed].sort((a, b) => sortBy === "citations"
+    const sorted = [...byYear].sort((a, b) => sortBy === "citations"
       ? b.citations - a.citations || b.year - a.year || a.title.localeCompare(b.title)
       : b.year - a.year || b.citations - a.citations || a.title.localeCompare(b.title));
     list.replaceChildren(...sorted.map((paper) => {
@@ -94,12 +76,10 @@
       article.append(main, metrics);
       return article;
     }));
-    count.textContent = typed.length === publications.length
+    count.textContent = byYear.length === publications.length
       ? publications.length
-      : `${typed.length} of ${publications.length}`;
+      : `${byYear.length} of ${publications.length}`;
     buttons.forEach((button) => button.classList.toggle("is-active", button.dataset.publicationSort === sortBy));
-    roleButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.publicationRole === selectedRole));
-    typeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.publicationType === selectedType));
   };
 
   buttons.forEach((button) => button.addEventListener("click", () => {
@@ -110,15 +90,6 @@
     selectedYear = yearFilter.value;
     render();
   });
-  roleButtons.forEach((button) => button.addEventListener("click", () => {
-    selectedRole = button.dataset.publicationRole;
-    render();
-  }));
-  typeButtons.forEach((button) => button.addEventListener("click", () => {
-    selectedType = button.dataset.publicationType;
-    render();
-  }));
-
   request("assets/scholar-publications.json")
     .then((data) => {
       publications = data.publications || [];
