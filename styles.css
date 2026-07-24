@@ -504,6 +504,10 @@ a.repo-badge:hover { border-color:var(--sage-deep); color:var(--sage-deep); }
 .publications-scholar-link { display:inline-flex; gap:.55rem; align-items:center; color:var(--ink); text-decoration:none; }
 .publications-scholar-link:hover { color:var(--sage-deep); }
 .publications-scholar-link img { width:1.45rem; height:1.45rem; object-fit:contain; }
+.publications-scholar-button { gap:.65rem; padding:.58rem .8rem; border:1px solid #c7b8d4; border-radius:4px; background:rgba(217,208,227,.62); color:#51445e; font-family:var(--mono); font-size:.61rem; letter-spacing:.045em; text-transform:uppercase; transition:background .18s, border-color .18s, transform .18s; }
+.publications-scholar-button img { width:1.15rem; height:1.15rem; }
+.publications-scholar-button i { margin-left:.15rem; font-size:.72rem; }
+.publications-scholar-button:hover { border-color:#a894ba; background:var(--lilac); color:#41354c; transform:translateY(-1px); }
 .publications-sort { display:flex; align-items:center; gap:.45rem; padding:1.35rem 0; color:#718078; font-family:var(--mono); font-size:.62rem; letter-spacing:.05em; text-transform:uppercase; }
 .publication-sort { padding:.43rem .75rem; border:1px solid var(--line); border-radius:999px; background:transparent; color:#617067; font:inherit; text-transform:uppercase; cursor:pointer; }
 .publication-sort:hover, .publication-sort.is-active { border-color:var(--ink); background:var(--ink); color:var(--white); }

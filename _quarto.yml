@@ -37,8 +37,6 @@ website:
             text: Projects
       - text: Outputs
         menu:
-          - href: featured-research.qmd
-            text: Featured Research
           - href: publications.qmd
             text: Publications
           - href: software.qmd

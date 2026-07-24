@@ -11,7 +11,7 @@
 
 ::: {.publications-page}
 <div class="publications-topline">
-<a class="publications-scholar-link" href="https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><img src="https://scholar.google.com/favicon.ico" alt="" aria-hidden="true"> Google Scholar profile</a>
+<a class="publications-scholar-link publications-scholar-button" href="https://scholar.google.com/citations?hl=en&user=iktXWosAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"><img src="https://scholar.google.com/favicon.ico" alt="" aria-hidden="true"><span>PI’s Google Scholar</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
 </div>
 
 <nav class="publications-view-switch" aria-label="Choose publication view">
